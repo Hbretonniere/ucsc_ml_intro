@@ -16,7 +16,9 @@ The slide introduction was followed by 4 increasing complexity notebooks:
 
 - `Exploring_AE.ipynb` goes much more deeply in complexity, in order to show --still in an understandable way -- what cool stuff you can do with simple models. We use an AutoEncoder to generate new handwritten digits, and explore the latent distribution found by the encoder:
 
-![Interactive Latent Space](./interactive_LS.gif)
+![Interactive Latent Space](interactive_LS.gif)
 
 - `VAE_mnist.ipynb` go one step further, introducing Variational AutoEncoders and the problematic of the _curse of dimension_.
 
+
+Additionally, there is a short tutorial introducing how to use the tenosrlfow dataset API in `tf2_dataset_tuto.ipynb`
